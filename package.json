@@ -42,6 +42,7 @@
     "build:dicos": "node --loader ts-node/esm tasks/buildJson.js",
     "makeJson": "node --loader ts-node/esm tasks/buildJson.js",
     "getNewUuid": "node --loader ts-node/esm tasks/getNewUuid.js",
+    "generate:dataset": "node tasks/generateExercisesDataset.js",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "transpile": "tsc > journal.log",
